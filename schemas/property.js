@@ -32,7 +32,47 @@ export default {
             type: 'image',
             options:{
                 hotspot:true
-            }
-        }
+            },
+        },
+        // {
+        //     name:'images',
+        //     title:'Images',
+        //     type:'array',
+        //     of:[{type:'popertyImage'}]
+        // }
+        {
+            name:'pricePerNight',
+            title:'Price Per Night',
+            type:'number',
+        },
+        {
+            name:'beds',
+            title:'Beds',
+            type:'number'
+        },
+        {
+            name:'bedrooms',
+            title:'Bedrooms',
+            type:'number',
+        },
+        {
+            name:'slug',
+            title:'Slug',
+            type:'slug',
+            options:{
+                source:'title',
+                maxLength:100,
+            },
+        },
+        {
+            name:'id',
+            title:"Id",
+            type:'number',
+        },
+        {
+            name:'description',
+            title:'Description',
+            type:'string'
+        },
     ]
 }
