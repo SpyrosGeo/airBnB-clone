@@ -10,7 +10,7 @@ const Property = ({ title,
     bedrooms,
     description,
     host,
-reviews }) => {
+    reviews }) => {
     return (
         <>
             <h1>{title}</h1>
